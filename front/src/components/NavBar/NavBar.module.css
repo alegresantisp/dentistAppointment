@@ -1,0 +1,96 @@
+/* NavBar.module.css */
+.navBar {
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.icon {
+  width: 70px; 
+  height: auto;
+  border-radius: 50%;
+  transition: box-shadow 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.icon:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8); 
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  /* flex: 1; */
+  justify-content: center;
+}
+
+.navLink {
+  /* margin-left: 20px; */
+  margin-right: 20px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0.3rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+  border-radius: 5%;
+  transition: box-shadow 0.3s ease-in-out;
+  text-decoration: none; 
+}
+
+.navLink:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+.userSection {
+  position: relative; 
+  display: flex;
+  align-items: center;
+  /* flex: 0; */
+}
+
+.userPhoto {
+  width: 50px; 
+  height: auto;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease-in-out;
+  
+}
+
+.userPhoto:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8); 
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 60px; 
+  right: 0;
+  background-color: #444;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  padding: 10px;
+}
+
+.menuItem {
+  background: none;
+  border: none;
+  color: white;
+  padding: 3px; 
+  text-align: left;
+  width: 100%;
+  cursor: pointer;
+  display: block;  
+  text-decoration: none; 
+  margin-top: 5px;
+}
+
+.menuItem:hover {
+  background: #555;
+  color: orange;
+}

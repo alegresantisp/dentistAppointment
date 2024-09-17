@@ -1,0 +1,45 @@
+.turno {
+    position: relative;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    width: 200px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+}
+
+.turno h4 {
+    margin: 10px 0; 
+    font-size: 1.2em; 
+    color: #333; 
+}
+
+.active {
+   color: green; 
+   margin: 10px 0; 
+   font-size: 1.2em; 
+}
+
+.cancelled {
+   color: red;
+   margin: 10px 0; 
+   font-size: 1.2em; 
+}
+
+.cancelButton {
+    display: block;
+    margin: 10px 20px;
+    padding: 8px 15px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 80%; 
+}
+
+.cancelButton:hover {
+    background-color: darkred;
+}

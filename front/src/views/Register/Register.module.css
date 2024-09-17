@@ -1,0 +1,9 @@
+.registerContainer {  
+    background-image: url('../../assets/loginFondo.jpg');
+    background-size: cover; /* Ajusta la imagen de fondo para cubrir todo el área */
+    background-position: center;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

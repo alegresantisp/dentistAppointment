@@ -1,0 +1,32 @@
+.misTurnosContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+    height: 100vh;
+    background-image: url('../../assets/turnosMis.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.formContainer {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.turnoContainer {
+    flex: 2;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}

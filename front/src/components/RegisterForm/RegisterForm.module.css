@@ -1,0 +1,53 @@
+/* src/components/RegisterForm/RegisterForm.module.css */
+.registerForm {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(153, 149, 145, 0.842);
+}
+
+.registerForm h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.registerForm div {
+  margin-bottom: 8px;
+}
+
+.registerForm label {
+  display: block;
+  margin-bottom: 3px;
+}
+
+.registerForm input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.registerForm button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.registerForm button:hover {
+  background-color: #0056b3;
+}
+
+.registerForm p {
+  text-align: center;
+  margin-top: 10px;
+  color: rgb(247, 10, 10);
+  font-weight: bold;
+}
